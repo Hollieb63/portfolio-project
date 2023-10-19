@@ -41,8 +41,7 @@ line-height: normal;
 }
    
 .content{
-    border: 4px none #C5ADA4;
-border-radius: 10px;
+    border:  none #C5ADA4;
     border-color: var(--third-color);
     border-width: 100px;
     background: #C5ADA4;
@@ -51,8 +50,7 @@ border-radius: 10px;
 }
 
 .info{
-    border: 4px none #C5ADA4;
-border-radius: 10px;
+    border:  none #C5ADA4;
     border-color: var(--third-color);
     border-width: 100px;
     background:#C5ADA4;
@@ -75,7 +73,8 @@ border-radius: 10px;
     border-width: 100px;
     background: #C5ADA4;
     margin-bottom: 20px;
-   
+   margin-left: 20px;
+   margin-right:20px ;
 }
 #social-media{
     padding:15px;
@@ -101,6 +100,7 @@ border-radius: 10px;
 }
 #image{
     width:250px;
+    padding-bottom: 10px;
 }
 p{
     font-size: 20px;
@@ -147,4 +147,63 @@ a.contact-link{
     width:150px;
     text-align: center;
     align-self: center;
+}
+
+@media (max-width: 600px) {
+    h1 {
+      font-size: 48px;
+      line-height: 1.5;
+    }
+  
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+    .primary-link {
+      display: block;
+      text-align: center;
+    margin:0 auto;
+    width:200px
+    }
+.personal-info{
+width:auto;
+padding-bottom: 10px;
+text-align: center;
+}
+#intro{
+    padding:10px;
+}
+.paragraph{
+    width:auto;
+    border-radius: 0px;
+}
+#email-link{
+    font-size: 18px;
+    text-align: center;
+}
+}
+@media(max-width:850px){
+    .contact{
+       margin:50px;
+    }
+    #intro{
+        padding:10px;
+        margin: 20px;
+}
+#nav-bar{
+    width:auto;
+}
+.paragraph{
+   width: auto;
+   margin: 20px;
+   border-radius: 4px;
+}
+.website-link{
+ margin-left: 15px;
+   padding-top: 10px;
+}
 }
